@@ -1,0 +1,1070 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 12px 32px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    max-width: 1577px;
+    width: 70%;
+}
+
+a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #323232;
+    font-size: 18px;
+}
+
+#contactUsButton {
+    border-radius: 8px;
+    border: 1px solid #6941C6;
+    background: #6941C6;
+    padding: 8px 16px;
+    color: #FFFFFF;
+}
+
+#nextmoveDiv {
+    display: inline-block;
+    padding: 13px;
+    margin-left: 32px;
+    vertical-align: middle;
+}
+
+
+
+#contactButton {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #6941C6;
+    background-color: #6941C6;
+    vertical-align: middle;
+    color: #FFF;
+}
+
+#mainDiv {
+    height: 100%;
+    max-width: 1248px;
+    width: 100%;
+    background-color: #F1E8FF;
+    padding: 96px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#pricingPlansDiv {
+    text-align: center;
+    max-width: 656px;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+#PricingH1 {
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#SImpleP {
+    font-size: 24px;
+    color: #535862;
+    max-width: 768px;
+    height: 64px;
+    display: inline-block;
+    text-align: center;
+}
+
+#pricesDiv {
+    max-width: 1248px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#tenDolarDiv {
+    padding: 40px 32px 32px 32px;
+    max-width: 309px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    vertical-align: middle;
+    margin-right: 32px;
+}
+
+#basicPlanDiv {
+    display: inline-block;
+    text-align: center;
+
+}
+
+#basicPlan {
+    color: #6941C6;
+    text-align: center;
+    font-size: 14px;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    max-width: 93px;
+    height: 28px;
+    padding: 4px 12px;
+    margin-bottom: 20px;
+
+}
+
+#tenDolarH2 {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+#mostPopularP {
+    color: #535862;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+#getStartedDiv {
+    max-width: 309px;
+}
+
+#getStartedButton {
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #7F56D9;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+#chat-to-salesButton {
+    width: 100%;
+    color: #414651;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 12px 18px;
+    margin-bottom: 32px;
+}
+
+#horizontalDiv {
+    border: 1px solid #E9EAEB;
+    max-width: 309px;
+    margin-bottom: 33px;
+}
+
+#dolarTickDiv {
+    max-width: 373px;
+}
+
+#accesgreenTick {
+    display: block;
+
+
+}
+
+#accesP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -47px;
+
+}
+
+#basicGreenTick {
+    display: block;
+
+}
+
+#basicP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 12px;
+    margin-top: -45px;
+}
+
+#upGreenTick {
+    display: block;
+
+}
+
+#upP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -13px;
+    margin-top: -43px;
+}
+
+#ocigbGreenTick {
+    display: block;
+
+}
+
+#ocigbP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 29px;
+    margin-top: -43px;
+}
+
+#basicChatGreenTick {
+    display: block;
+
+}
+
+#basicChatGreenTickP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 7px;
+    margin-top: -42px;
+}
+
+#ociDolarDiv {
+    display: inline-block;
+    padding: 40px 32px 32px 32px;
+    max-width: 309px;
+    width: 100%;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    vertical-align: middle;
+    margin-right: 32px;
+
+}
+
+#businescPlanDiv {
+    display: inline-block;
+    text-align: center;
+}
+
+#businesPlan {
+    color: #6941C6;
+    text-align: center;
+    font-size: 14px;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    max-width: 117px;
+    height: 28px;
+    padding: 4px 12px;
+    margin-bottom: 20px;
+}
+
+#ociDolarH2 {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+#growingP {
+    color: #535862;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+#getstartedOciDiv {
+    max-width: 309px;
+}
+
+#getStartedOciButton {
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #7F56D9;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+#chat-to-salesOciButton {
+    width: 100%;
+    color: #414651;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 12px 18px;
+    margin-bottom: 32px;
+}
+
+#horizontaOcilDiv {
+    border: 1px solid #E9EAEB;
+    max-width: 309px;
+    margin-bottom: 33px;
+}
+
+#ocidolarTickDiv {
+    max-width: 309px;
+    width: 100%;
+}
+
+#integrationsgreenTick {
+    display: block;
+
+}
+
+#integrationsP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -73px;
+    margin-top: -45px;
+}
+
+#advancedGreenTick {
+    display: block;
+
+
+}
+
+#advancedP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -47px;
+    margin-left: 27px;
+    height: 20px;
+}
+
+
+
+#upToOciGreenTick {
+    display: block;
+
+}
+
+#upToOciP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -26px;
+    margin-top: -43px;
+}
+
+#ormocigbGreenTick {
+    display: block;
+
+}
+
+#ormocigbP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 21px;
+    margin-top: -43px;
+}
+
+#priorityChatGreenTick {
+    display: block;
+
+}
+
+#priorityChatGreenTickP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-top: -42px;
+}
+
+#ormociDolarDiv {
+    display: inline-block;
+    padding: 40px 32px 32px 32px;
+    max-width: 309px;
+    width: 100%;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    vertical-align: middle;
+
+
+}
+
+#EnterpriseDiv {
+    display: inline-block;
+    text-align: center;
+}
+
+#enterprise {
+    color: #6941C6;
+    text-align: center;
+    font-size: 14px;
+    border-radius: var(--radius-full, 9999px);
+    border: 1px solid #E9D7FE;
+    background: #F9F5FF;
+    max-width: 117px;
+    height: 28px;
+    padding: 4px 12px;
+    margin-bottom: 20px;
+}
+
+#ormociDolarH2 {
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+#advancedFeaturesP {
+    color: #535862;
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+#getstartedOrmociDiv {
+    max-width: 309px;
+}
+
+#getStartedOrmociButton {
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: #7F56D9;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+#chat-to-salesOrmociButton {
+    width: 100%;
+    color: #414651;
+    border-radius: 8px;
+    border: 1px solid #D5D7DA;
+    background: #FFF;
+    padding: 12px 18px;
+    margin-bottom: 32px;
+}
+
+#horizontaOrmocilDiv {
+    border: 1px solid #E9EAEB;
+    max-width: 309px;
+    margin-bottom: 33px;
+}
+
+#ormocidolarTickDiv {
+    max-width: 373px;
+    width: 100%;
+
+}
+
+#advancedCustomGreenTick {
+    display: block;
+
+}
+
+#advancedCustomP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -26px;
+    margin-top: -45px;
+}
+
+#auditGreenTick {
+    display: block;
+
+}
+
+#auditP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -16px;
+    margin-top: -47px;
+}
+
+#unlimitedUsersGreenTick {
+    display: block;
+
+}
+
+#unlimitedUsersP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -12px;
+    margin-top: -43px;
+}
+
+#unlimitedDataGreenTick {
+    display: block;
+
+}
+
+#unlimitedDataP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: -17px;
+    margin-top: -43px;
+}
+
+#PersonalizedGreenTick {
+    display: block;
+
+}
+
+#PersonalizedP {
+    font-size: 16px;
+    color: #535862;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+    margin-top: -42px;
+}
+
+#frequentlyDiv {
+    margin-top: 64px;
+    max-width: 1248px;
+    height: 1252px;
+    border-radius: 24px;
+    background-color: #FFF;
+    margin-bottom: 64px;
+
+
+}
+
+#frequentlyWrapper {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+#frequentlyH2 {
+    font-size: 40px;
+    color: #181D27;
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
+
+#everythingP {
+    font-size: 24px;
+    color: #535862;
+    padding-bottom: 32px;
+}
+
+#freeTrialDiv {
+    max-width: 768px;
+    padding: 32px;
+    height: 168px;
+    text-align: left;
+    background-color: #E4E4E4;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+#ArrowDiv {
+    display: inline-block;
+
+}
+
+#availableDiv {
+    display: inline;
+    width: 656px;
+    padding-left: 24px;
+    height: 104px;
+
+}
+
+#trialP {
+    display: inline-block;
+    padding-bottom: 8px;
+    font-size: 16px;
+    color: #181D27;
+}
+
+#YesP {
+    text-align: left;
+    max-width: 656px;
+    font-size: 16px;
+    color: #535862;
+    padding-left: 50px;
+
+}
+
+#changeMyPlanDiv {
+    max-width: 768px;
+    padding: 32px;
+    height: 144px;
+    text-align: left;
+    border-radius: 16px;
+    border: 2px solid #FF2323;
+    background: #FFE5E5;
+    margin-bottom: 16px;
+}
+
+#secondArrowDiv {
+    display: inline-block;
+}
+
+#changeLaterDiv {
+    display: inline;
+    width: 656px;
+    padding-left: 24px;
+    height: 104px;
+
+}
+
+#canP {
+    display: inline-block;
+    padding-bottom: 8px;
+    font-size: 16px;
+    color: #181D27;
+}
+
+#YesYouCanP {
+    text-align: left;
+    max-width: 656px;
+    font-size: 16px;
+    color: #535862;
+    padding-left: 50px;
+}
+
+#cancellationDiv {
+    max-width: 768px;
+    padding: 32px;
+    height: 168px;
+    text-align: left;
+    border-radius: 16px;
+    background: #E9D7FF;
+    margin-bottom: 16px;
+}
+
+#thirdArrowDiv {
+    display: inline-block;
+}
+
+#OurDiv {
+    display: inline;
+    width: 656px;
+    padding-left: 24px;
+    height: 104px;
+}
+
+#whatIsP {
+    display: inline-block;
+    padding-bottom: 8px;
+    font-size: 16px;
+    color: #181D27;
+}
+
+#OurP {
+    text-align: left;
+    max-width: 656px;
+    font-size: 16px;
+    color: #535862;
+    padding-left: 50px;
+}
+
+#invoceDiv {
+    max-width: 768px;
+    padding: 32px;
+    height: 168px;
+    text-align: left;
+    border-radius: 16px;
+    background: #F7F4FF;
+    margin-bottom: 16px;
+}
+
+#fourArrowDiv {
+    display: inline-block;
+}
+
+#CanOtherDiv {
+    display: inline;
+    width: 656px;
+    padding-left: 24px;
+    height: 104px;
+}
+
+#canOtherP {
+    display: inline-block;
+    padding-bottom: 8px;
+    font-size: 16px;
+    color: #181D27;
+}
+
+#additionalP {
+    text-align: left;
+    max-width: 656px;
+    font-size: 16px;
+    color: #535862;
+    padding-left: 50px;
+}
+
+#billingWorkDiv {
+    max-width: 768px;
+    padding: 32px;
+    height: 168px;
+    text-align: left;
+    border-radius: 16px;
+    border: 4px solid #326DFF;
+    background: #DCE6FF;
+    margin-bottom: 16px;
+}
+
+#fiveArrowDiv {
+    display: inline-block;
+
+}
+
+#howDoesBillingDiv {
+    display: inline;
+    width: 656px;
+    padding-left: 24px;
+    height: 104px;
+}
+
+#HowDoesP {
+    display: inline-block;
+    padding-bottom: 8px;
+    font-size: 16px;
+    color: #181D27;
+}
+
+#additionalTwoP {
+    text-align: left;
+    max-width: 656px;
+    font-size: 16px;
+    color: #535862;
+    padding-left: 50px;
+}
+
+#accountEmailDiv {
+    max-width: 768px;
+    padding: 32px;
+    height: 168px;
+    text-align: left;
+    border-radius: 16px;
+    border-radius: 16px;
+    background: #FFD5E7;
+
+}
+
+#sixArrowDiv {
+    display: inline-block;
+}
+
+#howdoIchangeDiv {
+    display: inline;
+    width: 656px;
+    padding-left: 24px;
+    height: 104px;
+
+}
+
+#HowDoChangeP {
+    display: inline-block;
+    padding-bottom: 8px;
+    font-size: 16px;
+    color: #181D27;
+}
+
+#toChangeP {
+    text-align: left;
+    max-width: 656px;
+    font-size: 16px;
+    color: #535862;
+    padding-left: 50px;
+}
+
+#OurReviewsDiv {
+    max-width: 1248px;
+    width: 100%;
+    background-color: #FFF;
+    height: 758px;
+    border-radius: 24px;
+    margin: 0 auto;
+}
+
+#h2-p-Wrapper {
+    max-width: 768px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#ourReviewsH2 {
+    padding-top: 32px;
+    font-size: 40px;
+    color: #181D27;
+    padding-bottom: 20px;
+}
+
+#HearP {
+    font-size: 24px;
+    color: #535862;
+}
+
+#TeachersDiv {
+    max-width: 1248px;
+    width: 100%;
+    height: 568px;
+    padding: 32px;
+    text-align: left;
+
+}
+
+#sienaCatlynDiv {
+    margin-bottom: 24px;
+}
+
+#SienaDiv {
+    max-width: 480px;
+    height: 256px;
+    width: 100%;
+    padding: 32px;
+    display: inline-block;
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    vertical-align: middle;
+}
+
+#unlimitedP {
+    font-size: 20px;
+    color: #181D27;
+    max-width: 516px;
+    width: 100%;
+    height: 60px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+
+#SienaPng {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#SienaP {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 18px;
+    color: #181D27;
+}
+
+#sienaBlueTick {
+    vertical-align: middle;
+}
+#sienaWraper{
+    max-width: 275px;
+    vertical-align: middle;
+}
+#SienaDetails {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 12px;
+    max-width: 310px;
+
+}
+
+#projectManagerP {
+    font-size: 16px;
+    color: #535862;
+}
+
+#warpsSpeedPng{
+    vertical-align: middle;
+    padding-left: 300px;
+    margin-top: -67px;
+}
+
+#caitlynDiv {
+    max-width: 498px;
+    width: 100%;
+    height: 256px;
+    padding: 32px;
+    display: inline-block;
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    vertical-align: middle;
+}
+
+#UntitledP {
+    text-align: left;
+    font-size: 20px;
+    max-width: 516px;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 50px;
+}
+
+
+#CaitlynPng {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#CaitlynDetails {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 12px;
+    max-width: 332px;
+
+}
+
+#caitlynP {
+    vertical-align: middle;
+    display: inline;
+    font-size: 18px;
+    color: #181D27;
+}
+
+#CaitlynBlueTick {
+    vertical-align: middle;
+}
+
+#COOOdeaoLabs {
+    font-size: 16px;
+    color: #535862;
+}
+
+#COOOdeaoLabsWrapper {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 12px;
+}
+
+#odeolabsPng {
+    display: inline;
+    padding-left: 103px;
+}
+
+#OllyDiv {
+    max-width: 480px;
+    height: 256px;
+    width: 100%;
+    padding: 32px;
+    display: inline-block;
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    vertical-align: middle;
+}
+
+#EveryProjectP {
+    text-align: left;
+    font-size: 20px;
+    max-width: 516px;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 50px;
+}
+
+#OllyPng {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#OllyDetails {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 12px;
+    max-width: 310px;
+}
+
+#OllyP {
+    vertical-align: middle;
+    display: inline;
+    font-size: 18px;
+    color: #181D27;
+}
+
+#OllyBlueTick {
+    vertical-align: middle;
+}
+
+#DesignerNietzsche {
+    font-size: 16px;
+    color: #535862;
+}
+
+#NietzscheWrapper {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 12px;
+}
+
+#NietzschePng {
+    display: inline;
+    padding-left: 92px;
+}
+
+#RileyDiv {
+    max-width: 498px;
+    width: 100%;
+    height: 256px;
+    padding: 32px;
+    display: inline-block;
+    border-radius: 12px;
+    border: 1px solid #E9EAEB;
+    background: #FFF;
+    vertical-align: middle;
+}
+
+#usingUntitled {
+    text-align: left;
+    font-size: 20px;
+    max-width: 516px;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 50px;
+}
+
+#rileyPng {
+    vertical-align: middle;
+}
+
+#rileyDetails {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 12px;
+    max-width: 310px;
+}
+
+#rileyP {
+    vertical-align: middle;
+    display: inline;
+    font-size: 18px;
+    color: #181D27;
+}
+
+#rileyBlueTick {
+    vertical-align: middle;
+}
+
+#DesignEngineer {
+    font-size: 16px;
+    color: #535862;
+}
+#quartzAiPng{
+    vertical-align: middle;
+    padding-left: 74px;
+}
+
